@@ -7,10 +7,7 @@ public class practice1_4 {
     }
 
     static int getTrNum(int n) {
-        int num = 0;
-        for (int i = 1; i <= n; i++) {
-            num += i;
-        }
+        int num = (int) (0.5*n*(n + 1));
         return num;
     }
 }
